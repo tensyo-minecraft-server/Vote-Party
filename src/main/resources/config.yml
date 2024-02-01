@@ -1,0 +1,207 @@
+Rewards:
+  0:
+    rarity: "&7&lコモン"
+    message: "[Brewer] 30分の間、経験値が2倍"
+    command:
+      - "setblock -10 -60 65 minecraft:redstone_block"
+  1:
+    rarity: "&7&lコモン"
+    message: "[Builder] 30分の間、経験値が2倍"
+    command:
+      - "setblock -10 -60 63 minecraft:redstone_block"
+  2:
+    rarity: "&7&lコモン"
+    message: "[Crafter] 30分の間、経験値が2倍"
+    command:
+      - "setblock -10 -60 61 minecraft:redstone_block"
+  3:
+    rarity: "&7&lコモン"
+    message: "[Digger] 30分の間、経験値が2倍"
+    command:
+      - "setblock -10 -60 59 minecraft:redstone_block"
+  4:
+    rarity: "&7&lコモン"
+    message: "[Enchanter] 30分の間、経験値が2倍"
+    command:
+      - "setblock -10 -60 57 minecraft:redstone_block"
+  5:
+    rarity: "&7&lコモン"
+    message: "[Explorer] 30分の間、経験値が2倍"
+    command:
+      - "setblock -10 -60 55 minecraft:redstone_block"
+  6:
+    rarity: "&7&lコモン"
+    message: "[Farmer] 30分の間、経験値が2倍"
+    command:
+      - "setblock -7 -60 65 minecraft:redstone_block"
+  7:
+    rarity: "&7&lコモン"
+    message: "[Fisherman] 30分の間、経験値が2倍"
+    command:
+      - "setblock -7 -60 63 minecraft:redstone_block"
+  8:
+    rarity: "&7&lコモン"
+    message: "[Hunter] 30分の間、経験値が2倍"
+    command:
+      - "setblock -7 -60 61 minecraft:redstone_block"
+  9:
+    rarity: "&7&lコモン"
+    message: "[Miner] 30分の間、経験値が2倍"
+    command:
+      - "setblock -7 -60 59 minecraft:redstone_block"
+  10:
+    rarity: "&7&lコモン"
+    message: "[Weaponsmith] 30分の間、経験値が2倍"
+    command:
+      - "setblock -7 -60 57 minecraft:redstone_block"
+  11:
+    rarity: "&7&lコモン"
+    message: "[Woodcutter] 30分の間、経験値が2倍"
+    command:
+      - "setblock -7 -60 55 minecraft:redstone_block"
+  12-20:
+    rarity: "&7&lコモン"
+    message: "経験値レベルに+3"
+    command:
+      - "xp add @a 3 levels"
+  21-30:
+    rarity: "&7&lコモン"
+    message: "全員に幸運5 耐久5のピッケルを付与"
+    command:
+      - "give @a minecraft:netherite_pickaxe{display:{Name:'{\"text\":\"幸運ピッケル\",\"color\":\"yellow\"}',Lore:['{\"text\":\"改良不可\",\"color\":\"red\"}']},Damage:2026,kairyou:1,Enchantments:[{id:\"minecraft:fortune\",lvl:5s}]} 1"
+  31-40:
+    rarity: "&7&lコモン"
+    message: "ダイヤ+10"
+    command:
+      - "give @a diamond 10"
+  41-49:
+    rarity: "&7&lコモン"
+    message: "全員に30分間の満腹度回復！"
+    command:
+      - "effect give @a minecraft:saturation 36000 0 true"
+  50:
+    rarity: "&a&lアンコモン"
+    message: "[Brewer] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock -2 -60 66 minecraft:redstone_block"
+  51:
+    rarity: "&a&lアンコモン"
+    message: "[Builder] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 0 -60 66 minecraft:redstone_block"
+  52:
+    rarity: "&a&lアンコモン"
+    message: "[Crafter] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 2 -60 66 minecraft:redstone_block"
+  53:
+    rarity: "&a&lアンコモン"
+    message: "[Digger] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 4 -60 66 minecraft:redstone_block"
+  54:
+    rarity: "&a&lアンコモン"
+    message: "[Enchanter] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 6 -60 66 minecraft:redstone_block"
+  55:
+    rarity: "&a&lアンコモン"
+    message: "[Explorer] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 8 -60 66 minecraft:redstone_block"
+  56:
+    rarity: "&a&lアンコモン"
+    message: "[Farmer] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 10 -60 66 minecraft:redstone_block"
+  57:
+    rarity: "&a&lアンコモン"
+    message: "[Fisherman] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 12 -60 66 minecraft:redstone_block"
+  58:
+    rarity: "&a&lアンコモン"
+    message: "[Hunter] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 14 -60 66 minecraft:redstone_block"
+  59:
+    rarity: "&a&lアンコモン"
+    message: "[Miner] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 16 -60 66 minecraft:redstone_block"
+  60:
+    rarity: "&a&lアンコモン"
+    message: "[Weaponsmith] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 18 -60 66 minecraft:redstone_block"
+  61:
+    rarity: "&a&lアンコモン"
+    message: "[Woodcutter] 30分の間、経験値が3倍、お金が2倍!"
+    command:
+      - "setblock 20 -60 66 minecraft:redstone_block"
+  62-65:
+    rarity: "&a&lアンコモン"
+    message: "ネザライトインゴット+1!"
+    command:
+      - "give @a minecraft:netherite_ingot 1"
+  66-70:
+    rarity: "&a&lアンコモン"
+    message: "上位金リンゴ+1!"
+    command:
+      - "give @a minecraft:enchanted_golden-apple 1"
+  71-75:
+    rarity: "&a&lアンコモン"
+    message: "バニラ経験値レベル+10!"
+    command:
+      - "xp add @a 10 levels"
+  76-79:
+    rarity: "&a&lアンコモン"
+    message: "投票ボール+1!"
+    command:
+      - "give @a heart_of_the_sea{display:{Name:'{\"text\":\"投票コイン\",\"color\":\"gold\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"投票や、貢献してくれた人にもらえる特別なコイン！\",\"color\":\"aqua\"}','{\"text\":\"様々な用途に使用できるよ!\",\"color\":\"green\"}']},HideFlags:1,CustomModelData:1,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]} 1"
+  80-83:
+    rarity: "&9&lレア"
+    message: "30分の間、すべて職業の経験値が3倍、お金が2倍！"
+    command:
+      - "setblock 22 -60 60 minecraft:redstone_block"
+  84-87:
+    rarity: "&9&lレア"
+    message: "金ニンジン1st！"
+    command:
+      - "give @a minecraft:golden_carrot 64"
+  88-90:
+    rarity: "&9&lレア"
+    message: "30秒後、右手に持っているアイテムの耐久地を全回復！"
+    command:
+      - "scoreboard players set @a vote_party_durability_fix 31"
+  91-93:
+    rarity: "&9&lレア"
+    message: "30分の間、移動速度3、採掘速度3のエフェクト効果を付与！"
+    command:
+      - "effect give @a minecraft:speed 1800 2 true"
+      - "effect give @a minecraft:haste 1800 2 true"
+  94-95:
+    rarity: "&d&lエピック"
+    message: "カジノ初期掛け金に2倍！！(最大30000)"
+    command:
+      - "run setblock 17 -60 60 minecraft:redstone_block"
+  96:
+    rarity: "&d&lエピック"
+    message: "30秒後、右手に持っているアイテムの耐久力レベルを+1！！"
+    command:
+      - "scoreboard players set @a vote_party_durability_enchant 31"
+  97:
+    rarity: "&d&lエピック"
+    message: "24時間の間、jobの 経験値2倍 + お金1.5倍！！"
+    command:
+      - "setblock 22 -60 56 minecraft:redstone_block"
+  98:
+    rarity: "&6&lレジェンダリー"
+    message: "30分の間、すべての職業の経験値が20倍、お金が10倍！！！"
+    command:
+      - "setblock 22 -60 58 minecraft:redstone_block"
+  99:
+    rarity: "&6&lレジェンダリー"
+    message: "魔法イベント開催！！！(これが出たらsomen1000まで)"
+    command:
+      - "tellraw @a [{\"text\":\"出た目をsomen1000に言ってください。\"}]"

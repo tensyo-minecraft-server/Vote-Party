@@ -1,0 +1,9 @@
+name: Vote-Party
+version: '${version}'
+main: moe.nmkmn.vote_party.Main
+api-version: '1.20'
+commands:
+  voteparty:
+    description: "Vote Partyに関するコマンド"
+    permission: vote_party.command.voteparty
+    permission-message: Permission denied
